@@ -9,7 +9,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 
 @TeleOp(group = "Tutorials")
-public class Lesson012_IMUSetup extends LinearOpMode
+public class Lesson12_IMUSetup extends LinearOpMode
 {
     private BNO055IMU imu;
     private double imuX = imu.getAngularOrientation(AxesReference.INTRINSIC, AxesOrder.XYZ, AngleUnit.DEGREES).firstAngle;
