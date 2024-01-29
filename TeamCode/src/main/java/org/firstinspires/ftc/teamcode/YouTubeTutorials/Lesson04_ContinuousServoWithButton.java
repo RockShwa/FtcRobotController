@@ -1,9 +1,11 @@
 package org.firstinspires.ftc.teamcode.YouTubeTutorials;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.CRServo;
 
+@Disabled
 @TeleOp(group = "Tutorial")
 public class Lesson04_ContinuousServoWithButton extends LinearOpMode {
     private CRServo crServo;
